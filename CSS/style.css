@@ -3,8 +3,8 @@ div {
     width: 1500px;
     height: 290px;
     padding: 25px;
-    background-repeat: no-repeat;
     text-align: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-patron-fondo-abstracto-grunge-negro-foto-gratis_1340-33834.jpg);
 }
 
 div::before {
@@ -17,7 +17,7 @@ div::before {
     background-image: url(https://www.shutterstock.com/image-photo/dns-domain-name-system-network-600nw-2283759647.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.9;
+    opacity: 0.6;
     background-position: center center; 
     background-size: cover; 
     overflow: hidden; 
@@ -41,4 +41,22 @@ div hr {
 * {
     padding: 0%;
     margin: 0%;
+}
+
+a{
+    height: 30px;
+    width: 100px;
+    background-color:rgba(248, 248, 248, 0);;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: -180px;
+    right: -450px;
+    font-size: 18px;
+}
+a:hover{
+    background-color: black;
 }
