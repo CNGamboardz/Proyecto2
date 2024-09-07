@@ -3,43 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DNS</title>
+    <title>DNS - Resolución de Nombres</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <table width="100%">
-
+    <table width="100%"><!--Primer tabla-->
 
             <div>
                 <br><br><br><br><br><br>
-                <center><h1><b>DNS(DOMAIN NAME SYSTEM)</b></h1> <hr width="50%"></center>
+                <center><h1><b>RESOLUCIÓN DE NOMBRES</b></h1> <hr width="50%"></center>
                 <a href="index.html">Definición</a>
                 <a href="resolucion_de_nombre.html">Resolución de Nombres</a>
                 <a href="tipos_dns.html">Tipos de DNS</a>
-            </div2>
-
-       <tr>
-            <td>
-                <hr  width="100%">
-                <img src="IMAGENES/Imagen2.png" width="200px" height="200px" alt="Definición">
-            </td>
-        </tr>
+            </div>
             
-         </tr>
+            <tr class="tr3">
 
-            <td>
-                <hr width="80%">
-            </td>
+                <td width="50%">
+                    <br>
+                    <p class="texto2">La resolución es un proceso que se da desde un nombre de dominio a una dirección IP, y se puede dividir en pasos donde son los siguientes:</p>
 
-         </tr >
+                    <br>
+                    <li>Los usuarios ingresan el nombre de dominio en su navegador web. </li>
+                    <li>El navegador envía una solicitud al servidor DNS.</li>
+                    <li>El servidor DNS busca el nombre de dominio en su base de datos. </li>
+                    <li>Si el nombre de dominio existe, se devuelve la dirección IP correspondiente.</li>
+                    <li>Los navegadores utilizan direcciones IP para conectarse a sitios web.</li>
 
-         <tr height="100px" bgcolor="#5c63c7  "> <!--Pie de página-->
-            <td colspan="2">
-                <center><p>&copy; Erick Anselmo Gamboa Rodriguez   5J</p></center>
-            </td>
-        </tr>
+                </td>
 
-    </table>
+    
+                <td width="30%">
+                    <br><br>
+                    <img src="IMAGENES/32.jpeg" width="400px" height="200px">
+                </td>
+            </tr>   <!--Termina Seguridad DNS-->
+
+        <table width="100%"><!--Segunda tabla-->
+
+            <tr> <!--Boton para video de youtube-->
+                <td>
+
+                    <br>
+                    <center><hr  width="80%" class="hr2"></center>
+                    <center><a href="https://www.youtube.com/watch?v=hJqu97N_zhA" class="a2">PROTOCOLOS DNS</a></center>
+                    <br>
+                    <br><br>
+                    <center><hr  width="80%" class="hr2"></center>
+                    <br>
+                </td>
+
+            </tr> <!-- Termina Boton para video de youtube-->
+
+            <table width ="100%"><!--Tercera tabla-->
+                <tr class="tr5">
+                    <td><center><img src="IMAGENES/Modelo_osi.png" width="400px" height="400px" alt="ESTÁNDARES Y PROTOCOLOS" class="imagen3"></center></td>
+                    <td width="65%">
+                        <h2>ESTÁNDARES Y PROTOCOLOS</h2><br>
+                        <p class="texto3">El Sistema de Nombres de Dominio (DNS) se rige por varios estándares y protocolos definidos <br> en documentos RFC (solicitar comentarios): </p></td><br>
+                        <td><center><hr  width="80%" class="hr2"></center></td>
+                </tr> <!--Termina ESTÁNDARES Y PROTOCOLOS-->
+
+                <table width ="100%"><!--Cuarta tabla-->
+                    <br>
+                    <tr class="tr3">
+                        <td>
+                            <li><b> RFC 881: </b>Plan y Cronograma de Dominio - El Plan de Dominio y su Cronograma, el inicio oficial del plan de trabajo de conceptualización del DNS. </li>
+                            <li><b>RFC 1034: </b>Dominios de red: conceptos y capacidades: define los conceptos y funciones básicos de DNS.  </li>
+                            <li><b>RFC 1035:</b>Dominios: Implementación y especificaciones: Define la implementación del protocolo DNS.</li>
+                            <li><b>RFC 2671:</b>Mecanismo de extensión DNS (EDNS0): define extensiones del protocolo DNS para admitir paquetes más grandes. </li>
+                            <li><b>RFC 2845:</b> Autenticación de transacciones DNS con claves (TSIG): define un mecanismo de autenticación para transacciones DNS mediante claves. </li>
+                            <li><b>RFC 3225: </b>Instrucciones para que los solucionadores admitan DNSSEC: indica a los solucionadores cómo indicar su compatibilidad con DNSSEC. </li><br>
+                        </td>
+                    </tr>
+                    <table width="100%"> <!--Final del segundo sitio-->
+                        <br><br>
+                        <center><hr  width="80%" class="hr2"></center><br>
+
+                      <tr height="100px" bgcolor="#5c63c7  "> <!--Pie de página-->
+                     <td colspan="9">
+                     <center><h5>&copy; Erick Anselmo Gamboa Rodriguez   5J</h5></center>
+                      </td>
+                    </tr>
+</table>
+
+    </table><!--Cuarta tabla-->
+    </table><!--Tercera Tabla-->
+    </table><!--Segunda Tabla-->
+    </table> <!--Primer tabla-->
 </body>
 </html>

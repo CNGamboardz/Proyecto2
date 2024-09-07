@@ -102,11 +102,21 @@ tr .hr2{
     margin-left: 150px;
 }
 
+tr .imagen3{
+    top: auto;
+    left: auto;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
 tr .texto1{
     font-size: 18px;
     color: #000000; 
     margin-top: auto;
     text-align: justify;
+    line-height: 1.5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap');
@@ -114,19 +124,37 @@ tr .texto1{
 h2{
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
+    line-height: 1.5;
 }
 
 h3{
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    line-height: 1.5;
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
+    line-height: 1.5;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 tr .texto2{
+    font-size: 18px;
+    color: #000000; 
+    margin-top: auto;
+    text-align: justify;
+    top: 10px;
+    left: 50px;
+}
+
+tr .texto3{
     font-size: 18px;
     color: #000000; 
     margin-top: auto;
@@ -152,12 +180,14 @@ tr .texto2{
     text-align-last: right;
     margin: 0;
     padding-right: 350px;
+    line-height: 1.5;
 }
 
 .tr3 .texto2 {
     text-align: justify;
     text-align-last: left;
     padding-left: 180px;
+    line-height: 1.5;
 }
 
 .tr4 h2 {
@@ -165,18 +195,21 @@ tr .texto2{
     text-align-last: left;
     margin: 0;
     padding-left: 180px;
+    line-height: 1.5;
 }
 
 .tr4 .texto2 {
     text-align: justify;
     text-align-last: left;
     padding-left: 180px;
+    line-height: 1.5;
 }
 
 .tr5 .texto2{
         width: 80%; 
         margin: 0 auto;
         text-align: justify;
+        line-height: 1.5;
 }
 
 .tr6 .texto2{
@@ -184,4 +217,20 @@ tr .texto2{
     text-align: justify;
     text-align-last: left;
     padding-left: 180px;
+    line-height: 1.5;
+}
+
+.tr5 .texto3{
+    
+    text-align: justify;
+    text-align-last: left;
+    padding-right: -180px;
+    line-height: 1.5;
+}
+
+.tr3 li{
+    text-align: justify;
+    text-align-last: left;
+    padding-left: 180px;
+    line-height: 1.5;
 }
