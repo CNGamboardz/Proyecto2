@@ -28,7 +28,8 @@ div h1 {
     z-index: 2; 
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
 }
 
 div hr {
@@ -59,4 +60,128 @@ a{
 }
 a:hover{
     background-color: black;
+}
+
+tr hr{
+    border: none;
+    height: 3px;
+    background-color: #524f76;
+    position: relative;
+}
+
+tr .a2{
+
+    background-color:#524f76;
+    color: white;
+    position: relative;
+    font-size: 18px;
+    top: 25px;
+    left: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+
+tr .a2:hover{
+    background-color: rgb(26, 19, 19);
+}
+
+tr .hr2{
+    border: none;
+    height: 3px;
+    background-color: #000000;
+    position: relative;
+}
+
+ tr .imagen1{
+    top: auto;
+    left: auto;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+tr .texto1{
+    font-size: 18px;
+    color: #000000; 
+    margin-top: auto;
+    text-align: justify;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+tr .texto2{
+    font-size: 18px;
+    color: #000000; 
+    margin-top: auto;
+    text-align: justify;
+    top: 10px;
+    left: 50px;
+}
+
+.hr2{
+    border: none;
+    height: 3px;
+    background-color: #000000;
+    position: relative;
+}
+
+.tr3 td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.tr3 h2 {
+    text-align: justify;
+    text-align-last: right;
+    margin: 0;
+    padding-right: 350px;
+}
+
+.tr3 .texto2 {
+    text-align: justify;
+    text-align-last: left;
+    padding-left: 180px;
+}
+
+.tr4 h2 {
+    text-align: justify;
+    text-align-last: left;
+    margin: 0;
+    padding-left: 180px;
+}
+
+.tr4 .texto2 {
+    text-align: justify;
+    text-align-last: left;
+    padding-left: 180px;
+}
+
+.tr5 .texto2{
+        width: 80%; 
+        margin: 0 auto;
+        text-align: justify;
+}
+
+.tr6 .texto2{
+    
+    text-align: justify;
+    text-align-last: left;
+    padding-left: 180px;
 }
